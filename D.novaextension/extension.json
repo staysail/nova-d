@@ -1,0 +1,11 @@
+{
+    "identifier": "tech.staysail.D",
+    "name": "D",
+    "organization": "Staysail Systems",
+    "description": "D syntax support for Nova.",
+    "version": "1.0",
+    "min_runtime": 10.0,
+    "categories": ["languages"],
+    "repository": "https://github.com/staysail/nova-d",
+    "bugs": "https://github.com/staysail/nova-d/issues"
+}

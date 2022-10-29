@@ -1,9 +1,0 @@
-{
-    "identifier": "tech.staysail.D",
-    "name": "D",
-    "organization": "Staysail Systems",
-    "description": "D language support for Nova.",
-    "version": "0.1",
-    "min_runtime": 10.0,
-    "categories": ["languages"]
-}

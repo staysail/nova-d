@@ -1,19 +1,17 @@
-**D** provides syntax highlighting for **D**.
+# D Syntax for [Nova][Nova]
 
-<!--
-🎈 It can also be helpful to include a screenshot or GIF showing your extension in action:
--->
+More information about the plugin can be found in the
+`D.novaextension` directory.
 
-![](https://nova.app/images/en/dark/editor.png)
+## Building
 
-## Language Support
+If you want to build this, you will need the tree-sitter-d
+repository, and will need to build the parser using the
+supplied compile.sh and Makefile.
 
-At present not every aspect of the syntax is highlighted, but
-the use of a complete Tree Sitter grammar ensures that we have
-all of the elements.
+1. git clone https://github.com/gdamore/tree-sitter-d
+2. ./compile.sh ./tree-sitter-d /Applications/Nova.app
+3. cp build/*.dylib ./C.novaextension/Syntaxes
 
-Language server support will add additional capabilities in the future.
-
-## Required
-
-This extension only supports Nova 10.
+[Nova]: https://nova.app "Nova website"
+[TreeSitter]: https://tree-sitter.github.io

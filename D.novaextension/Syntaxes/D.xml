@@ -2,7 +2,7 @@
 <syntax name="d">
     <meta>
         <name>D</name>
-        <type>script</type>
+        <type>compiled</type>
         <preferred-file-extension>d</preferred-file-extension>
     </meta>
     

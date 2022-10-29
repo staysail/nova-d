@@ -1,5 +1,5 @@
 ;
-; These are the hightlight queries used by the
+; These are the highlight queries used by the
 ; Nova editor (as of version 10).
 ;
 ; all forms of comment
@@ -39,10 +39,14 @@
 ] @keyword.operator
 
 [
+	(parameter_attribute)
 	(storage_class)
+	(type_ctor)
 ] @keyword.modifier
 
 (function_declaration (identifier) @identifier.function)
+(call_expression (type (identifier) @identifier.function))
+(template_instance (identifier) @identifier.method)
 
 [
 	"/="
@@ -150,6 +154,8 @@
 	(while)
 ] @keyword.control
 
+(cast) @keyword.operator
+
 [
 	(abstract)
 	(alias)
@@ -215,5 +221,15 @@
 	(cfloat)
 ] @invalid ; these types are deprecated
 
+(module_fqn) @cdata ; this is a crummy workaround since we don't have anything for imports
+(module_declaration (module_fqn)) @definition.package
+(class_declaration (identifier) @identifier.type.class)
+(struct_declaration (identifier) @identifier.type.struct)
+(interface_declaration (identifier) @identifier.type.protocol)
 (at_attribute) @identifier.property
+; builtin type aliases
+(type (identifier) @_type (#match? @_type "^(d|w)?string$")) @identifier.type
+(type (identifier) @_type (#match? @_type "^(size_t|ptrdiff_t)$")) @identifier.type
+; conventional naming
+(type (identifier) @_type (#match? @_type "^[A-Z]")) @identifier.type.class
 (identifier) @identifier ; catch all
