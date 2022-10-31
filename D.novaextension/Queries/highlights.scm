@@ -229,7 +229,7 @@
 (at_attribute) @identifier.property
 ; builtin type aliases
 (type (identifier) @_type (#match? @_type "^(d|w)?string$")) @identifier.type
-(type (identifier) @_type (#match? @_type "^(size_t|ptrdiff_t)$")) @identifier.type
+(type (identifier) @_type (#match? @_type "^(size_t|ptrdiff_t|noreturn)$")) @identifier.type
 ; conventional naming
 (type (identifier) @_type (#match? @_type "^[A-Z]")) @identifier.type.class
 (identifier) @identifier ; catch all
