@@ -217,7 +217,7 @@
 	(idouble)
 	(ifloat)
 	(creal)
-	(double)
+	(cdouble)
 	(cfloat)
 ] @invalid ; these types are deprecated
 
