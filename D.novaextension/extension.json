@@ -3,7 +3,7 @@
     "name": "D",
     "organization": "Staysail Systems",
     "description": "D syntax support for Nova.",
-    "version": "1.3",
+    "version": "1.4",
     "min_runtime": 10.0,
     "categories": ["languages"],
     "repository": "https://github.com/staysail/nova-d",
