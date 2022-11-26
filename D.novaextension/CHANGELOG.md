@@ -1,3 +1,9 @@
+## Version 1.4.1
+
+This extension is superseded by **D-Velop**.
+At start up we check to see if it is installed, provide
+guidance in switching to it.
+
 ## Version 1.4
 
 Basic indentation.
@@ -13,10 +19,8 @@ Sign the dynlib.
 
 ## Version 1.1
 
-
 Signficant work on folding, highlighting.
 
 ## Version 1.0
 
 Initial release
-

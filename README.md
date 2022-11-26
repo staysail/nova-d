@@ -1,4 +1,7 @@
-# D Syntax for [Nova][Nova]
+# D Syntax for [Nova][nova]
+
+> 🛑 This extension is deprecated. Please see our [**D-Velop**][dvelop]
+> extension instead.
 
 More information about the plugin can be found in the
 `D.novaextension` directory.
@@ -11,7 +14,8 @@ supplied compile.sh and Makefile.
 
 1. git clone https://github.com/gdamore/tree-sitter-d
 2. ./compile.sh ./tree-sitter-d /Applications/Nova.app
-3. cp build/*.dylib ./C.novaextension/Syntaxes
+3. cp build/\*.dylib ./C.novaextension/Syntaxes
 
-[Nova]: https://nova.app "Nova website"
-[TreeSitter]: https://tree-sitter.github.io
+[nova]: https://nova.app "Nova website"
+[treesitter]: https://tree-sitter.github.io
+[dvelop]: https://github.com/staysail/nova-serve-d

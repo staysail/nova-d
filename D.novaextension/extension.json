@@ -1,11 +1,13 @@
 {
-    "identifier": "tech.staysail.D",
-    "name": "D",
-    "organization": "Staysail Systems",
-    "description": "D syntax support for Nova.",
-    "version": "1.4",
-    "min_runtime": 10.0,
-    "categories": ["languages"],
-    "repository": "https://github.com/staysail/nova-d",
-    "bugs": "https://github.com/staysail/nova-d/issues"
+  "identifier": "tech.staysail.D",
+  "name": "D",
+  "organization": "Staysail Systems",
+  "description": "D syntax support for Nova.",
+  "version": "1.4.1",
+  "min_runtime": 10.0,
+  "categories": ["languages"],
+  "repository": "https://github.com/staysail/nova-d",
+  "bugs": "https://github.com/staysail/nova-d/issues",
+  "main": "main.js",
+  "activationEvents": ["onLanguage:d"]
 }
