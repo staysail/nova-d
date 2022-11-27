@@ -8,7 +8,7 @@
 
 ## Deprecated
 
-This extension has been superceded by the much more complete
+This extension has been superseded by the much more complete
 [D-Velop][3] extension. We recommend updating to
 that version, and to uninstall this one.
 
